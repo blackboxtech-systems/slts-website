@@ -715,7 +715,7 @@ ul {
 	padding-left: 40px;
 }
 
-.newsletter-form input {
+.newsletter-form input, .newsletter-form textarea {
 	width: 100%;
 	font-size: 16px;
 	padding: 12px 30px;
@@ -726,7 +726,11 @@ ul {
 	color: #fff;
 }
 
-.newsletter-form button {
+.newsletter-form textarea {
+	border-radius: 35px;
+}
+
+/* .newsletter-form button {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -739,7 +743,7 @@ ul {
 	font-size: 14px;
 	font-weight: 600;
 	cursor: pointer;
-}
+} */
 
 .newsletter-form ::-webkit-input-placeholder {
 	color: #fff;
